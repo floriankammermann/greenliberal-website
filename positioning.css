@@ -1,0 +1,141 @@
+body {
+    margin:0;
+    padding:0;
+    border:0;           /* This removes the border around the viewport in old versions of IE */
+    width:100%;
+    background:#fff;
+    min-width:600px;    /* Minimum width of layout - remove line if not required */
+    /* The min-width property does not work in old versions of Internet Explorer */
+    font-size:90%;
+}
+.glpheader {
+    height: 111px;
+    background-color: #FFFFFF;
+}
+.glplogo {
+    position: relative;
+    left: 214px;
+    top: 30px;
+    background-image: url(bilder/glplogo.gif);
+    background-repeat: no-repeat;
+    width: 214px;
+    height: 68px;
+}
+.topmenu {
+    position: relative;
+    z-index: 2;
+    width: 100%;
+    height: 26px;
+    background-color:#EEE;
+}
+.firstpicturebar {
+    height: 104px;
+    background-color: #FFFFFF;
+    background-image: url(bilder/grosshome.jpg),url(bilder/jetzt_aber_auch_morgen.gif);
+    background-position: left center, 450px 60px;
+    background-repeat: no-repeat;
+}
+.secondpicturebar {
+    position: relative;
+    z-index: 2;
+    width: 100%;
+    height: 48px;
+    background-color: #FFFFFF;
+    background-image: url("bilder/bandhome.jpg");
+    background-repeat: no-repeat;
+    background-position: right center;
+}
+.rightbar {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    width: 112px;
+    height: 283px;
+    background:#B5DB12;        /* Right column background colour */
+}
+.menucontentwithbars {
+    width: 100%;
+    right: 212px;
+    height: 400px;
+    background-color: #ffffc6;
+}
+/* column container */
+.colmask {
+    position:relative;      /* This fixes the IE7 overflow hidden bug and stops the layout jumping out of place */
+    clear:both;
+    float:left;
+    width:100%;             /* width of whole page */
+    overflow:hidden;        /* This chops off any overhanging divs */
+    background:#B5DB12;        /* Right column background colour */
+}
+/* holy grail 3 column settings */
+.colmid {
+    float: left;
+    width: 200%;
+    margin-left: -112px;
+    position: relative;
+    right: 100%;
+    background: white;
+}
+.colleft {
+    float: left;
+    width: 100%;
+    margin-left: -50%;
+    position: relative;
+    left: 540px;
+    background:#B5DB12;        /* Right column background colour */
+}
+.colleftleft {
+    float: left;
+    width: 100%;
+    margin-left: 0%;
+    position: relative;
+    right: 214px;
+    background: #FFFFFF;
+}
+.col1wrap {
+    float:left;
+    width:50%;
+    position:relative;
+    right:188px;            /* Width of left column */
+    padding-bottom:1em;     /* Centre column bottom padding. Leave it out if it's zero */
+}
+.col1 {
+    margin-right: 150px;
+    margin-left: 420px;
+    position:relative;
+    left:200%;
+    border: solid black 1px;
+}
+.col2 {
+    float:right;            /* This overrides the float:left above */
+    width:151px;            /* Width of left column content (left column width minus left and right padding) */
+    position:relative;
+    right:30px;             /* Width of the left-had side padding on the left column */
+    overflow: hidden;
+    border: solid black 1px;
+}
+.col3 {
+    float:right;            /* This overrides the float:left above */
+    width:151px;            /* Width of left column content (left column width minus left and right padding) */
+    position:relative;
+    right: -337px;             /* Width of the left-had side padding on the left column */
+    border: solid black 1px;
+}
+.col4 {
+    float:right;            /* This overrides the float:left above */
+    width:100px;            /* Width of right column content (right column width minus left and right padding) */
+    margin-right: -88px;      /* Width of right column right-hand padding + left column left and right padding */
+    position:relative;
+    left:50%;
+    border: solid black 1px;
+}
+.email {
+    right:5px; 
+    position:absolute; 
+    bottom:15px;
+    font-size: 10px;
+    font-family: "Arial Narrow",Arial,Helvetica,Verdana,sans-serif;
+    line-height: 13px;
+    letter-spacing: 1px;
+}
