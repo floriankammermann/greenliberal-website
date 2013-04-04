@@ -1,3 +1,6 @@
+html, body {
+    height: 100%;
+}
 #glpheader {
     height: 111px;
     background-color: #FFFFFF;
@@ -72,6 +75,7 @@ div#topmenu li {
     width:100%;             /* width of whole page */
     overflow:hidden;        /* This chops off any overhanging divs */
     background:#B5DB12;        /* Right column background colour */
+    height: calc(100% - 290px);
 }
 /* holy grail 3 column settings */
 #colmid {
@@ -81,6 +85,7 @@ div#topmenu li {
     position: relative;
     right: 100%;
     background: white;
+    height: 100%;
 }
 #colleft {
     float: left;
@@ -89,6 +94,7 @@ div#topmenu li {
     position: relative;
     left: 540px;
     background:#B5DB12;        /* Right column background colour */
+    height: 100%;
 }
 #colleftleft {
     float: left;
@@ -97,6 +103,7 @@ div#topmenu li {
     position: relative;
     right: 214px;
     background: #FFFFFF;
+    height: 100%;
 }
 #contentwrap {
     float:left;
