@@ -3,7 +3,7 @@
 ## features
 * div only layout
 * SEO friendly
-* content hold in excel file
+* news hold in excel file
 * the most common parts externalized (used php include)
 * passes the accessability test: http://www.sidar.org/hera
 
