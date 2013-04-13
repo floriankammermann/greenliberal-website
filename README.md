@@ -1,5 +1,11 @@
 # Greenliberal Website
 
+## features
+* div only layout
+* SEO friendly
+* content hold in excel file
+* passes the accessability test: http://www.sidar.org/hera
+
 ## design
 
 ### layout
