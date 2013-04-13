@@ -21,7 +21,7 @@
 * font-size in em
 
 ### hacks
-* to get the green columns to the window size, when the content is short. Javascript is used.
+* to get the green columns to the window size, when the content is short, javascript is used.
 
 
 The home.html shows a pure html representation of the home page.
