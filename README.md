@@ -21,5 +21,4 @@ The home.html shows a pure html representation of the home page.
 
 ## PHP pages
 * externalized the most used parts in resources/templates
-* the news are loaded from an excel file. They are displayed in 4 places:
-** home.php, medienmitteilungen.php, medienmitteilungen_polarbeit.php, homefeed.php
+* the news are loaded from an excel file. They are displayed in 4 places: home.php, medienmitteilungen.php, medienmitteilungen_polarbeit.php, homefeed.php
