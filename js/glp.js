@@ -17,6 +17,11 @@
 // the script for the min height
 $(document).ready(function() {
         var documentHeight = $(document).height();
+        var documentWidth = $(document).width();
+
+        // if we are in a mobile scenario we don't need to set the height
+        if(documentWidth <= 750) return;
+
         var contentHeightFitToDocumentHeight = documentHeight - 303;
         var contentHeight = $('#content').height();
         if(contentHeight < contentHeightFitToDocumentHeight) {

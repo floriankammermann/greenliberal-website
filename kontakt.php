@@ -1,6 +1,7 @@
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html lang="de-CH">
     <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
         <meta http-equiv="content-type" content="text/html; charset=Windows-1252;">
         <title>Grünliberale Partei Stadt Bern</title>
         <meta http-equiv="language" content="de">
@@ -11,7 +12,7 @@
         <link href="/css/grunliberaleweb.css" rel="stylesheet" type="text/css" media="all">
         <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
         <style type="text/css">
-           div#topmenu a[href*="kontakt"] { color: #000000; font-size: 13px; font-weight: bold; } 
+           div#topmenu a[href*="kontakt"] { color: #000000; font-weight: bold; } 
         </style>
  		<script type="text/javascript">
             function FormularPruefen()
@@ -68,16 +69,9 @@
  		</script>
     </head>
     <body>
-        <div id="glpheader">
-            <div id="glplogo">
-                <span id="sektion">STADT BERN</span>
-            </div>
-        </div>
-        <div id="topmenu">
-             <?php include "resources/templates/header.php"; ?>
-        </div>
-        <div id="firstpicturebar"></div>
-        <div id="secondpicturebar"></div>
+        <?php include "resources/templates/header.php"; ?>
+        <?php include "resources/templates/topmenu.php"; ?>
+        <?php include "resources/templates/picturebars.php"; ?>
         <?php include "resources/templates/socialmedia.php"; ?>
         <div id="rightbar"></div>
         <div id="colmask">
@@ -127,8 +121,8 @@
                                             <td class="beschrieb">
                                             <input id="mitglied" name="mitglied" type="checkbox" value="Ich möchte Mitglied werden" class="oder" title="mitglied">								</td>
                                             <td class="input">
-                                              <p>Ich m&ouml;chte Mitglied werden.<br>
-                                              Mitgliederbeitrag: 120.-/Jahr, Wenigverdienende 40.-/Jahr</p>
+                                              Ich m&ouml;chte Mitglied werden.<br>
+                                              Mitgliederbeitrag: 120.-/Jahr, Wenigverdienende 40.-/Jahr
                                             </td>
                                       </tr>
                                         <tr>

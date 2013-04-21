@@ -1,32 +1,30 @@
 html, body {
     height: 100%;
 }
-#glpheader {
-    height: 111px;
+div#glpheader {
     background-color: #FFFFFF;
+    height: 111px;
 }
-#glplogo {
+div#glplogo {
     position: relative;
-    left: 214px;
-    top: 30px;
+    float:left;
+    margin: 30px 0px 0px 214px;
     background-image: url(/img/site/glplogo.gif);
     background-repeat: no-repeat;
     width: 214px;
-    height: 68px;
+    height:70px;
 }
-#sektion {
-    position:absolute;
-    left:230px;
-    bottom:0px;
+div#sektion {
+    position: relative;
+    float:left;
+    margin: 85px 0px 0px 15px;
+    width:115px;
     white-space:nowrap;
     letter-spacing: 1px;
     font-size: 16px;
     font-weight: bold;
 }
-
-/* topmenu list */
-#topmenu {
-    position: relative;
+div#topmenu {
     z-index: 2;
     width: 100%;
     height: 26px;
@@ -37,24 +35,26 @@ div#socialmedia {
     top:15px;
     right:50px;
 }
-#socialmedia #facebook {
+div#socialmedia div#facebook {
     padding: 0px 16px 0px 0px;
     float:left;
 }
-#socialmedia #fbpage {
+div#socialmedia div#fbpage {
     display:none;
     padding:0px 0px 0px 1px;
 }
-#socialmedia #fblike:hover + #fbpage {
+div#socialmedia div#fblike:hover + div#fbpage {
     display:block;
 }
-#socialmedia #fbpage:hover {
+div#socialmedia div#fbpage:hover {
     display:block;
 }
-#socialmedia #gplusone {
+div#socialmedia div#gplusone {
     float:left;
+    heigt:21px;
+    padding:2px 0px 0px 0px;
 }
-#socialmedia #twitter {
+div#socialmedia div#twitter {
     float:left;
 }
 div#topmenu ul {
@@ -67,14 +67,32 @@ div#topmenu li {
     padding-right: 5px;
 }
 
-#firstpicturebar {
+div#firstpicturebar {
     height: 104px;
     background-color: #FFFFFF;
-    background-image: url(/img/site/grosshome.jpg),url(/img/site/jetzt_aber_auch_morgen.gif);
-    background-position: left center, 450px 60px;
     background-repeat: no-repeat;
 }
-#secondpicturebar {
+div#firstpicturebarpic {
+    position:relative;
+    float:left;
+    height: 104px;
+    width: 429px;
+    background-color: #FFFFFF;
+    background-image: url(/img/site/grosshome.jpg);
+    background-repeat: no-repeat;
+}
+div#firstpicturebartext {
+    position:relative;
+    float:left;
+    left:14px;
+    top:60px;
+    height: 30px;
+    width: 230px;
+    background-color: #FFFFFF;
+    background-image: url(/img/site/jetzt_aber_auch_morgen.gif);
+    background-repeat: no-repeat;
+}
+div#secondpicturebar {
     position: relative;
     z-index: 2;
     width: 100%;
@@ -84,25 +102,23 @@ div#topmenu li {
     background-repeat: no-repeat;
     background-position: right center;
 }
-#rightbar {
+div#rightbar {
     position: absolute;
     top: 0px;
     right: 0px;
     width: 112px;
     height: 283px;
-    background:#B5DB12;        /* Right column background colour */
+    background:#B5DB12;
 }
-/* column container */
-#colmask {
-    position:relative;      /* This fixes the IE7 overflow hidden bug and stops the layout jumping out of place */
+div#colmask {
+    position:relative;
     clear:both;
     float:left;
     width:100%;             /* width of whole page */
     overflow:hidden;        /* This chops off any overhanging divs */
     background:#B5DB12;        /* Right column background colour */
 }
-/* holy grail 3 column settings */
-#colmid {
+div#colmid {
     float: left;
     width: 200%;
     margin-left: -112px;
@@ -110,7 +126,7 @@ div#topmenu li {
     right: 100%;
     background: white;
 }
-#colleft {
+div#colleft {
     float: left;
     width: 100%;
     margin-left: -50%;
@@ -118,7 +134,7 @@ div#topmenu li {
     left: 540px;
     background:#B5DB12;        /* Right column background colour */
 }
-#colleftleft {
+div#colleftleft {
     float: left;
     width: 100%;
     margin-left: 0%;
@@ -126,38 +142,41 @@ div#topmenu li {
     right: 214px;
     background: #FFFFFF;
 }
-#contentwrap {
+div#contentwrap {
     float:left;
     width:50%;
     position:relative;
     right:188px;            /* Width of left column */
     padding-bottom:1em;     /* Centre column bottom padding. Leave it out if it's zero */
 }
-#content {
+div#content {
     margin-right: 150px;
     margin-left: 420px;
     position:relative;
     left:200%;
 }
-#leftmenuwrap {
+div#content td  {
+    padding-right:10px;
+}
+div#leftmenuwrap {
     float:right;            /* This overrides the float:left above */
     width:151px;            /* Width of left column content (left column width minus left and right padding) */
     position:relative;
     right:-180px;             /* Width of the left-had side padding on the left column */
     overflow: hidden;
 }
-#photocolumnwrap {
+div#photocolumnwrap {
     float:right;            /* This overrides the float:left above */
     width:214px;            /* Width of left column content (left column width minus left and right padding) */
     position:relative;
     right:-214px;             /* Width of the left-had side padding on the left column */
     overflow: hidden;
 }
-#photocolumn {
+div#photocolumn {
     width:214px;
     min-height:50px;
 }
-#footerkontakt {
+div#footerkontakt {
     position:absolute;
     right:0px;
     bottom:15px;

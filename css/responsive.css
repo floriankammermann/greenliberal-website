@@ -1,0 +1,138 @@
+@media (max-width: 1100px) {
+    div#topmenu ul {
+        padding: 6px 0px 0px 214px;
+    }
+}
+@media (max-width: 870px) {
+    div#topmenu ul {
+        padding: 6px 0px 0px 40px;
+    }
+}
+@media (max-width: 750px) {
+    body {
+        min-width: 0px;
+    }
+    div#socialmedia {
+        display:none;
+    }
+    #glpheader {
+        width:90%;
+        height: 90px;
+        left:5%;
+        padding-bottom: 20px;
+    }
+    div#glplogo {
+        margin: 15px 0px 0px 5%;
+    }
+    div#sektion {
+        margin: 80px 0px 0px -160px;
+    }
+    div#topmenu {
+        width:90% ;
+        margin-left:5%;
+        height: auto;
+    }
+    div#topmenu ul {
+        padding: 6px 0px 6px 4px;
+    }
+    div#topmenu li {
+        display: list-item;
+        padding: 4px 0px 0px 0px;
+    }
+    div#topmenu a {
+        font-size: 18px;
+    }
+    div#firstpicturebar {
+        display:none;
+    }
+    div#secondpicturebar {
+        display:none;
+    }
+    div#rightbar {
+        display:none;
+    }
+    div#feed {
+        display:none;
+    }
+    div#colmask {
+        clear:both;
+        width:90%;
+        left:5%;
+        overflow:auto;
+        background: #FFFFFF;
+    }
+    div#colmid {
+        clear:both;
+        width:100%;
+        margin:auto;
+        right: auto;
+        background:#FFFFFF;
+    }
+    div#colleft {
+        clear:both;
+        width:100%;
+        margin:auto;
+        left:auto;
+        background: #FFFFFF;
+    }
+    div#colleftleft {
+        clear:both;
+        width:100%;
+        margin:auto;
+        right:auto;
+        background: #FFFFFF;
+    }
+    div#contentwrap {
+        clear:both;
+        width:100%;
+        right:auto;       
+        padding:auto; 
+    }
+    div#content {
+        width:100%;
+        margin:auto;
+        left:auto;
+    }
+    div#leftmenuwrap {
+        display: none;
+    }
+    div#photocolumnwrap {
+        float:left;
+        height:600px;
+        width:auto;        
+        right:auto;        
+        overflow:hidden;
+    }
+    div#photocolumn {
+        width:auto;        
+        min-height:auto;
+    }
+    div#footerkontakt {
+        display: none;
+    }
+    div#content h1 {
+        font-size: 1.3em;
+        line-height: 18px;
+    }
+    div#content h2 {
+        font-size: 1.6em;
+        line-height: 24px;
+    }
+    div#content p, div#content legend, div#content td  {
+        font-style: normal;
+        font-size: 1.2em;
+        line-height: 1.2em;
+        padding: 12px 0px 12px 0px;
+    }
+    div#content ul ul {
+        font-size:0.8em;
+    }
+    div#content li {
+        font-size:1.2em;
+        line-height: 1.2em;
+    }
+    div#content input[type=submit], input[type=reset]{
+        width: 90px;
+        margin-right: 10px;
+    }
+}
