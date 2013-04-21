@@ -53,9 +53,8 @@ div#content h2 {
     font-style: normal;
     font-weight: bold;
 }
-div#content p, div#content legend {
-    margin-top: 12px;
-    margin-bottom: 12px;
+div#content p, div#content legend  {
+    padding: 12px 0px 12px 0px;
 }
 div#content ul {
     list-style-type:disc;
