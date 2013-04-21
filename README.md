@@ -2,6 +2,7 @@
 
 ## features
 * div only layout
+* responsive
 * SEO friendly
 * news hold in excel file
 * the most common parts externalized (used php include)
@@ -11,6 +12,7 @@
 
 ### layout
 * div only
+* responsive
 * SEO friendly (content comes first)
 * based on http://matthewjamestaylor.com/blog/ultimate-3-column-holy-grail-pixels.htm
 * all menus are lists
