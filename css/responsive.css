@@ -122,8 +122,11 @@
         font-style: normal;
         font-size: 1.2em;
         line-height: 1.2em;
+    }
+    div#content p, div#content legend  {
         padding: 12px 0px 12px 0px;
     }
+
     div#content ul ul {
         font-size:0.8em;
     }
